@@ -1,16 +1,18 @@
-import Home from "./Components/Home"
-import Firstpage from "./Components/Firstpage"
-import Secondpage from "./Components/Secondpage"
-import {Routes, Route, Link } from "react-router-dom"
+// import Home from "./Components/Home"
+// import Firstpage from "./Components/Firstpage"
+// import Secondpage from "./Components/Secondpage"
+// import {Routes, Route, Link } from "react-router-dom"
+import User from "./Components/ComponentsRedux/User"
 
 
 function App() {
 
   return (
+    <>
     <div className="flex flex-col items-center">
     
    
-      <nav>
+      {/* <nav>
       <Link to="/">Home</Link>
       <br/>
       <Link to="/Firstpage">Firstpage</Link>
@@ -23,11 +25,13 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/Firstpage" element ={<Firstpage />} />
         <Route path="/Secondpage" element ={<Secondpage />} />
-       </Routes>
+       </Routes> */}
 
-  
+        <User />
 
     </div>
+    
+    </>
   )
 }
 
