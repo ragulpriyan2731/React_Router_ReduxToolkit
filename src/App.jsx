@@ -2,14 +2,15 @@
 // import Firstpage from "./Components/Firstpage"
 // import Secondpage from "./Components/Secondpage"
 // import {Routes, Route, Link } from "react-router-dom"
-import User from "./Components/ComponentsRedux/User"
+// import User from "./Components/ComponentsRedux/User"
+import Input from "./Components/ComponentsRedux/Input"
 
 
 function App() {
 
   return (
     <>
-    <div className="flex flex-col items-center">
+    <div >
     
    
       {/* <nav>
@@ -27,7 +28,8 @@ function App() {
         <Route path="/Secondpage" element ={<Secondpage />} />
        </Routes> */}
 
-        <User />
+        {/* <User /> */}
+        <Input />
 
     </div>
     
